@@ -18,51 +18,30 @@
         </nav>
     </header>
     <main>
-        <section id="parallax">
-            
+        <section id="contact-form">
+            <form action="submit" method="post">
+                <table>
+                    <tr>
+                        <td colspan="2"><h1>Contact Us</h1></td>
+                    </tr>
+                    <tr>
+                        <td><label for="name">Name:</label></td>
+                        <td><input type="text" id="name" name="name" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="email" id="email" name="email" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="message">Message:</label></td>
+                        <td><textarea id="message" name="message" rows="4" required></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><button type="submit"><h1>Send Email</h1></button></td>
+                    </tr>
+                </table>
+            </form>
         </section>
-        <div>
-            <section id="section1">
-                <h1>Welcome to Our Motorcycle Shop</h1>
-                <p>Experience the freedom of the open road with our diverse selection of motorcycles. From rugged dirt bikes to comfortable cruisers and versatile adventure bikes, we have the perfect ride for every type of rider.</p>
-            </section>
-        </div>
-        <div class="card-container">
-            <section id="dirtbikes" class="card">
-                <img src="https://i.ibb.co/bjzLxYxj/crf.webp" alt="Dirt Bike" />
-                <div class="card-content">
-                <span class="tag">CATEGORY</span>
-                <h2>Dirt Bikes</h2>
-                <p>Experience the excitement of off-road riding with our selection of dirt bikes. Perfect for trails and motocross tracks.</p>
-                </div>
-            </section>
-
-            <section id="cruisers" class="card">
-                <img src="https://i.ibb.co/jkKy5qd2/goldwing.webp" alt="Cruiser Bike" />
-                <div class="card-content">
-                <span class="tag">CATEGORY</span>
-                <h2>Cruisers</h2>
-                <p>Enjoy a comfortable and stylish ride with our range of cruiser motorcycles. Ideal for long-distance journeys and city cruising.</p>
-                </div>
-            </section>
-
-            <section id="adventurebikes" class="card">
-                <img src="https://i.ibb.co/TqJ2ZdMY/gs1300.webp" alt="Adventure Bike" />
-                <div class="card-content">
-                <span class="tag">CATEGORY</span>
-                <h2>Adventure Bikes</h2>
-                <p>Conquer any terrain with our adventure bikes. Built for versatility and durability, they are perfect for both on-road and off-road adventures.</p>
-                </div>
-            </section>
-             <section id="Commuter Bikes" class="card">
-                <img src="https://i.ibb.co/YBdy4HsW/Hero-Hunk-160.jpg" alt="Commuter Bike" />
-                <div class="card-content">
-                <span class="tag">CATEGORY</span>
-                <h2>Commuter</h2>
-                <p>Navigate city streets with ease using our efficient and reliable commuter bikes. Designed for daily use, they offer comfort, fuel economy, and practicality for your everyday rides</p>
-                </div>
-            </section>
-        </div>
     </main>
     <footer>
         <p>&copy; 2025 K&W Moto Shop. All rights reserved.</p>
@@ -79,6 +58,7 @@
         </div>
         <div id="footer-links">
             <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+
         </div>
     </footer>
 </body>
