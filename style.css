@@ -5,6 +5,8 @@
     font-optical-sizing: auto;
     margin: 0;
     padding: 0;
+    outline: 1px solid red;
+
 }
 
 body {
@@ -259,9 +261,10 @@ footer {
     justify-content: center;
     gap: 1rem;
     padding: 1rem;
+}
+#social-media-icons svg {
     transform: scale(1.5);
 }
-
 #footer-links a {
     text-decoration: none;
     color: white;
