@@ -23,7 +23,39 @@
     </header>
     <main>
         <div id="displayMotos">
-            <h1>Check our catalog</h1>
+            <div id="center-text">
+                <h1>Check our catalog</h1>
+                <p>Explore our extensive range of motorcycles, from dirt bikes to cruisers and adventure bikes. Find the perfect ride for your style and needs.</p>
+            </div>
+            <nav id ="search-bar">
+                <ul id="search-options">
+                    <li><input type="search" placeholder="Model Name"></li>
+                    <li><select name="categories" id="categoriesSelect">
+                        <option value="all">All Categories</option>
+                        <option value="dirtbikes">Dirt Bikes</option>
+                        <option value="cruisers">Cruisers</option>
+                        <option value="adventurebikes">Adventure Bikes</option>
+                        <option value="sportbikes">Sport Bikes</option>
+                        <option value="electricbikes">Electric Bikes</option>
+                    </select></li>
+                    <li>
+                        <select name="Brand" id="BrandSelect">
+                            <option value="all">All Brands</option>
+                            <option value="yamaha">Yamaha</option>
+                            <option value="harleydavidson">Harley-Davidson</option>
+                            <option value="ducati">Ducati</option>
+                            <option value="ktm">KTM</option>
+                            <option value="royalenfield">Royal Enfield</option>
+                            <option value="zero">Zero</option>
+                            <option value="honda">Honda</option>
+                            <option value="bmw">BMW</option>
+                        </select>
+                    </li>
+                    <li>
+                        <input type="submit" value="Search">
+                    </li>
+                </ul>
+            </nav>
             <div class="card-container">            
                 <section id="yzfr1" class="card">
                     <img src="https://i.ibb.co/nspHM6Kg/YVKWXZSZNRFERMOO6-JDNQOA7-RM.jpg" alt="Yamaha R1" />
@@ -119,11 +151,6 @@
                 <li><a href="#">3</a></li>
                 <li><a href="#">4</a></li>
                 <li><a href="#">5</a></li>
-                <li><a href="#">6</a></li>
-                <li><a href="#">7</a></li>
-                <li><a href="#">8</a></li>
-                <li><a href="#">9</a></li>
-                <li><a href="#">10</a></li>
             </ul>
         </div>
     </main>
